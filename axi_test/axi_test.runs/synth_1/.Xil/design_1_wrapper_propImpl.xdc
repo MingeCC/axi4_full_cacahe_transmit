@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:F:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/constrs_1/new/yinjiao.xdc rfile:../../../axi_test.srcs/constrs_1/new/yinjiao.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H15 [get_ports m_axi_error_0]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L15 [get_ports m_axi_txn_done_0]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L14 [get_ports key]

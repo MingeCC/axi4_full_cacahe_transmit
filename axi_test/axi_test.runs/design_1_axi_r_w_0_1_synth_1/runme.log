@@ -1,0 +1,589 @@
+
+*** Running vivado
+    with args -log design_1_axi_r_w_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_r_w_0_1.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axi_r_w_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Desktop/Vivado_prj/8/axi_test/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+Command: synth_design -top design_1_axi_r_w_0_1 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 27440 
+WARNING: [Synth 8-2507] parameter declaration becomes local in axi_r_w_v2_0_M_AXI with formal parameter declaration list [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:195]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 482.059 ; gain = 109.570
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_r_w_0_1' [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ip/design_1_axi_r_w_0_1/synth/design_1_axi_r_w_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'axi_r_w_v2_0' [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0.v:4]
+	Parameter C_M_AXI_TARGET_SLAVE_READ_ADDR bound to: 268435456 - type: integer 
+	Parameter C_M_AXI_TARGET_SLAVE_WRITE_ADDR bound to: 536870912 - type: integer 
+	Parameter C_M_AXI_CACHE_DEPTH bound to: 1024 - type: integer 
+	Parameter C_M_AXI_WRITE_PTR_LENTH bound to: 10 - type: integer 
+	Parameter C_M_AXI_TARGET_SLAVE_BASE_ADDR bound to: 0 - type: integer 
+	Parameter C_M_AXI_BURST_LEN bound to: 32 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_r_w_v2_0_M_AXI' [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:4]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+	Parameter C_M_TARGET_SLAVE_READ_ADDR bound to: 268435456 - type: integer 
+	Parameter C_M_TARGET_SLAVE_WRITE_ADDR bound to: 536870912 - type: integer 
+	Parameter CACHE_DEPTH bound to: 1024 - type: integer 
+	Parameter WRITE_PTR_LENTH bound to: 10 - type: integer 
+	Parameter C_M_TARGET_SLAVE_BASE_ADDR bound to: 0 - type: integer 
+	Parameter C_M_AXI_BURST_LEN bound to: 32 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_TRANSACTIONS_NUM bound to: 5 - type: integer 
+	Parameter C_MASTER_LENGTH bound to: 12 - type: integer 
+	Parameter C_NO_BURSTS_REQ bound to: 5 - type: integer 
+	Parameter IDLE bound to: 2'b00 
+	Parameter INIT_WRITE bound to: 2'b01 
+	Parameter INIT_READ bound to: 2'b10 
+	Parameter INIT_COMPARE bound to: 2'b11 
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+INFO: [Synth 8-226] default block is never used [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:785]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:170]
+INFO: [Synth 8-6155] done synthesizing module 'axi_r_w_v2_0_M_AXI' (1#1) [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'axi_r_w_v2_0' (2#1) [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_r_w_0_1' (3#1) [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ip/design_1_axi_r_w_0_1/synth/design_1_axi_r_w_0_1.v:58]
+WARNING: [Synth 8-3331] design axi_r_w_v2_0_M_AXI has unconnected port M_AXI_BID[0]
+WARNING: [Synth 8-3331] design axi_r_w_v2_0_M_AXI has unconnected port M_AXI_BRESP[0]
+WARNING: [Synth 8-3331] design axi_r_w_v2_0_M_AXI has unconnected port M_AXI_BUSER[-1]
+WARNING: [Synth 8-3331] design axi_r_w_v2_0_M_AXI has unconnected port M_AXI_BUSER[0]
+WARNING: [Synth 8-3331] design axi_r_w_v2_0_M_AXI has unconnected port M_AXI_RID[0]
+WARNING: [Synth 8-3331] design axi_r_w_v2_0_M_AXI has unconnected port M_AXI_RRESP[0]
+WARNING: [Synth 8-3331] design axi_r_w_v2_0_M_AXI has unconnected port M_AXI_RUSER[-1]
+WARNING: [Synth 8-3331] design axi_r_w_v2_0_M_AXI has unconnected port M_AXI_RUSER[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 617.262 ; gain = 244.773
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 617.262 ; gain = 244.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 617.262 ; gain = 244.773
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1034.703 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1034.703 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.355 . Memory (MB): peak = 1053.273 ; gain = 18.570
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1053.273 ; gain = 680.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1053.273 ; gain = 680.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1053.273 ; gain = 680.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'mst_exec_state_reg' in module 'axi_r_w_v2_0_M_AXI'
+INFO: [Synth 8-5546] ROM "cache_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[32]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[33]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[34]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[35]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[36]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[37]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[38]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[39]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[40]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[41]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[42]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[43]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[44]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[45]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[46]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[47]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[48]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[49]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[50]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[51]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[52]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[53]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[54]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[55]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[56]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[57]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[58]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[59]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[60]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[61]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[62]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[63]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[64]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[65]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[66]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[67]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[68]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[69]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[70]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[71]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[72]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[73]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[74]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[75]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[76]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[77]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[78]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[79]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[80]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[81]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[82]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[83]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[84]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[85]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[86]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[87]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[88]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[89]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[90]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[91]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[92]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[93]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[94]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[95]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[96]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[97]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[98]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cache_reg[99]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "mst_exec_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mst_exec_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+               INIT_READ |                               01 |                               10
+              INIT_WRITE |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'mst_exec_state_reg' using encoding 'sequential' in module 'axi_r_w_v2_0_M_AXI'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 1053.273 ; gain = 680.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------------------+------------+----------+
+|      |RTL Partition                    |Replication |Instances |
++------+---------------------------------+------------+----------+
+|1     |muxpart__1029_axi_r_w_v2_0_M_AXI |           1|     32736|
+|2     |axi_r_w_v2_0_M_AXI__GB1          |           1|      6425|
+|3     |axi_r_w_v2_0_M_AXI__GB2          |           1|      9796|
+|4     |axi_r_w_v2_0_M_AXI__GB3          |           1|     14183|
+|5     |axi_r_w_v2_0_M_AXI__GB4          |           1|     18452|
++------+---------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 1025  
+	               10 Bit    Registers := 2     
+	                6 Bit    Registers := 4     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1032  
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module axi_r_w_v2_0_M_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 1025  
+	               10 Bit    Registers := 2     
+	                6 Bit    Registers := 4     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1032  
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'compare_done_reg' into 'ERROR_reg' [f:/Desktop/Vivado_prj/8/axi_test/axi_test.srcs/sources_1/bd/design_1/ipshared/522b/hdl/axi_r_w_v2_0_M_AXI.v:288]
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awid[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlen[7] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlen[6] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlen[5] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlen[4] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlen[3] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlen[2] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlen[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlen[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awsize[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awsize[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awsize[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awburst[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awburst[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awlock driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awcache[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awcache[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awcache[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awcache[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awprot[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awprot[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awprot[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awqos[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awqos[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awqos[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_awqos[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_wstrb[3] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_wstrb[2] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_wstrb[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_wstrb[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arid[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlen[7] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlen[6] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlen[5] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlen[4] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlen[3] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlen[2] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlen[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlen[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arsize[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arsize[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arsize[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arburst[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arburst[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arlock driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arcache[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arcache[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arcache[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arcache[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arprot[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arprot[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arprot[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arqos[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arqos[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arqos[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_r_w_0_1 has port m_axi_arqos[0] driven by constant 0
+WARNING: [Synth 8-3331] design design_1_axi_r_w_0_1 has unconnected port m_axi_bid[0]
+WARNING: [Synth 8-3331] design design_1_axi_r_w_0_1 has unconnected port m_axi_bresp[0]
+WARNING: [Synth 8-3331] design design_1_axi_r_w_0_1 has unconnected port m_axi_rid[0]
+WARNING: [Synth 8-3331] design design_1_axi_r_w_0_1 has unconnected port m_axi_rresp[0]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_9/\axi_araddr_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_9/\axi_araddr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_9/\axi_araddr_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_9/\axi_araddr_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_9/\axi_araddr_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_9/\axi_araddr_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_9/\axi_araddr_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/ERROR_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_0/\axi_awaddr_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_0/\axi_awaddr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_0/\axi_awaddr_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_0/\axi_awaddr_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_0/\axi_awaddr_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_0/\axi_awaddr_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_r_w_v2_0_M_AXI_insti_3/i_0/\axi_awaddr_reg[6] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1053.273 ; gain = 680.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------------------+------------+----------+
+|      |RTL Partition                    |Replication |Instances |
++------+---------------------------------+------------+----------+
+|1     |muxpart__1029_axi_r_w_v2_0_M_AXI |           1|     32736|
+|2     |axi_r_w_v2_0_M_AXI__GB1          |           1|      6416|
+|3     |axi_r_w_v2_0_M_AXI__GB2          |           1|      9796|
+|4     |axi_r_w_v2_0_M_AXI__GB3          |           1|      9423|
+|5     |axi_r_w_v2_0_M_AXI__GB4          |           1|      8899|
++------+---------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1053.273 ; gain = 680.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1053.273 ; gain = 680.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------------------+------------+----------+
+|      |RTL Partition                    |Replication |Instances |
++------+---------------------------------+------------+----------+
+|1     |muxpart__1029_axi_r_w_v2_0_M_AXI |           1|     32736|
+|2     |axi_r_w_v2_0_M_AXI__GB1          |           1|      6416|
+|3     |axi_r_w_v2_0_M_AXI__GB2          |           1|      9796|
+|4     |axi_r_w_v2_0_M_AXI__GB3          |           1|      9423|
+|5     |axi_r_w_v2_0_M_AXI__GB4          |           1|      8899|
++------+---------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:42 . Memory (MB): peak = 1101.613 ; gain = 729.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:43 . Memory (MB): peak = 1101.613 ; gain = 729.125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:43 . Memory (MB): peak = 1101.613 ; gain = 729.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:44 . Memory (MB): peak = 1101.613 ; gain = 729.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:44 . Memory (MB): peak = 1101.613 ; gain = 729.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:44 . Memory (MB): peak = 1101.613 ; gain = 729.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:44 . Memory (MB): peak = 1101.613 ; gain = 729.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    17|
+|2     |LUT1   |    17|
+|3     |LUT2   |    30|
+|4     |LUT3   |    88|
+|5     |LUT4   |   259|
+|6     |LUT5   |   341|
+|7     |LUT6   |  9327|
+|8     |MUXF7  |  4352|
+|9     |MUXF8  |  2176|
+|10    |FDRE   | 32986|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------+-------------------+------+
+|      |Instance                    |Module             |Cells |
++------+----------------------------+-------------------+------+
+|1     |top                         |                   | 49593|
+|2     |  inst                      |axi_r_w_v2_0       | 49593|
+|3     |    axi_r_w_v2_0_M_AXI_inst |axi_r_w_v2_0_M_AXI | 49593|
++------+----------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:44 . Memory (MB): peak = 1101.613 ; gain = 729.125
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1101.613 ; gain = 293.113
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:45 . Memory (MB): peak = 1101.613 ; gain = 729.125
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6545 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'design_1_axi_r_w_0_1' is not ideal for floorplanning, since the cellview 'axi_r_w_v2_0_M_AXI' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1101.613 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+198 Infos, 43 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:49 . Memory (MB): peak = 1101.613 ; gain = 740.594
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1101.613 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/Desktop/Vivado_prj/8/axi_test/axi_test.runs/design_1_axi_r_w_0_1_synth_1/design_1_axi_r_w_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_r_w_0_1, cache-ID = 7c13c3cc474b4d22
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1101.613 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/Desktop/Vivado_prj/8/axi_test/axi_test.runs/design_1_axi_r_w_0_1_synth_1/design_1_axi_r_w_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_r_w_0_1_utilization_synth.rpt -pb design_1_axi_r_w_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 21:59:05 2024...

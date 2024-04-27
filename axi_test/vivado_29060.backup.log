@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr 21 22:00:10 2024
+# Process ID: 29060
+# Current directory: F:/Desktop/Vivado_prj/6/axi_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20760 F:\Desktop\Vivado_prj\6\axi_test\axi_test.xpr
+# Log file: F:/Desktop/Vivado_prj/6/axi_test/vivado.log
+# Journal file: F:/Desktop/Vivado_prj/6/axi_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Desktop/Vivado_prj/6/axi_test/axi_test.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Desktop/Vivado_prj/6/axi_test/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 971.332 ; gain = 259.965
+update_compile_order -fileset sources_1
+launch_sdk -workspace F:/Desktop/Vivado_prj/6/axi_test/axi_test.sdk -hwspec F:/Desktop/Vivado_prj/6/axi_test/axi_test.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace F:/Desktop/Vivado_prj/6/axi_test/axi_test.sdk -hwspec F:/Desktop/Vivado_prj/6/axi_test/axi_test.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 21 22:17:28 2024...
