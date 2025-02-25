@@ -7,3 +7,4 @@ block design 中 axi_r_w_0 IP核参数：
 block design中的key按键为IP核的触发指令，在sdk中向待读取的地址传入数据后，需按下按键触发，再对写入的地址进行读取
 
 sdk操作：在串口中发送e读取DDR中的原数据，串口发送c进行写入数据到待发送数据的地址，按键触发IP核进行读取并发送，串口再次发送e查看写入后的数据
+axi4_full_cacahe_transmit/axi_test/axi_test.sdk/rw/src/main.c
